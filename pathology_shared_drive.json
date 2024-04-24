@@ -1,122 +1,12 @@
 {
   "categories": [
     {
-      "name": "Autopsy",
+      "name": "Updated Category",
       "files": [
         {
-          "name": "Autopsy_Report_1.pdf",
-          "address": "https://example.com/autopsy_files/Autopsy_Report_1.pdf",
-          "description": "Autopsy report for case 1"
-        },
-        {
-          "name": "Autopsy_Report_2.pdf",
-          "address": "https://example.com/autopsy_files/Autopsy_Report_2.pdf",
-          "description": "Autopsy report for case 2"
-        },
-        {
-          "name": "Autopsy_Slides.zip",
-          "address": "https://example.com/autopsy_files/Autopsy_Slides.zip",
-          "description": "Slides from autopsy procedures"
-        }
-      ]
-    },
-    {
-      "name": "Neuropathology",
-      "files": [
-        {
-          "name": "Neuropathology_Report_1.pdf",
-          "address": "https://example.com/neuropathology_files/Neuropathology_Report_1.pdf",
-          "description": "Neuropathology report for case 1"
-        },
-        {
-          "name": "Neuropathology_Slides.zip",
-          "address": "https://example.com/neuropathology_files/Neuropathology_Slides.zip",
-          "description": "Slides from neuropathology procedures"
-        }
-      ]
-    },
-    {
-      "name": "Surgical Pathology",
-      "files": [
-        {
-          "name": "Surgical_Pathology_Report_1.pdf",
-          "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Report_1.pdf",
-          "description": "Surgical pathology report for case 1"
-        },
-        {
-          "name": "Surgical_Pathology_Slides.zip",
-          "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Slides.zip",
-          "description": "Slides from surgical pathology procedures"
-        }
-      ]
-    },
-    {
-      "name": "Cytopathology",
-      "files": [
-        {
-          "name": "Cytopathology_Report_1.pdf",
-          "address": "https://example.com/cytopathology_files/Cytopathology_Report_1.pdf",
-          "description": "Cytopathology report for case 1"
-        }
-      ]
-    },
-    {
-      "name": "Hematopathology",
-      "files": [
-        {
-          "name": "Hematopathology_Report_1.pdf",
-          "address": "https://example.com/hematopathology_files/Hematopathology_Report_1.pdf",
-          "description": "Hematopathology report for case 1"
-        }
-      ]
-    },
-    {
-      "name": "Flow Cytometry",
-      "files": [
-        {
-          "name": "Flow_Cytometry_Data.xlsx",
-          "address": "https://example.com/flow_cytometry_files/Flow_Cytometry_Data.xlsx",
-          "description": "Flow cytometry data for analysis"
-        }
-      ]
-    },
-    {
-      "name": "Transfusion Medicine",
-      "files": [
-        {
-          "name": "Transfusion_Medicine_Record_1.docx",
-          "address": "https://example.com/transfusion_medicine_files/Transfusion_Medicine_Record_1.docx",
-          "description": "Transfusion medicine record for patient 1"
-        }
-      ]
-    },
-    {
-      "name": "Microbiology",
-      "files": [
-        {
-          "name": "Microbiology_Culture_Results.pdf",
-          "address": "https://example.com/microbiology_files/Microbiology_Culture_Results.pdf",
-          "description": "Microbiology culture results"
-        }
-      ]
-    },
-    {
-      "name": "Chemistry",
-      "files": [
-        {
-          "name": "Chemistry_Lab_Results.xls",
-          "address": "https://example.com/chemistry_files/Chemistry_Lab_Results.xls",
-          "description": "Chemistry lab results for analysis"
-        }
-      ]
-    },
-    {
-      "name": "Molecular Pathology",
-      "files": [
-        {
-          "name": "Molecular_Pathology_Data.csv",
-          "address": "https://example.com/molecular_pathology_files/Molecular_Pathology_Data.csv",
-          "description": "Molecular pathology data for research"
+          "name": "Updated_File.pdf",
+          "address": "https://example.com/updated_file.pdf",
+          "description": "Updated file description"
         }
       ]
     }
