@@ -17,6 +17,11 @@
           "name": "Autopsy_Slides.zip",
           "address": "https://example.com/autopsy_files/Autopsy_Slides.zip",
           "description": "Slides from autopsy procedures"
+        },
+        {
+          "name": "New_Autopsy_File.pdf",
+          "address": "https://example.com/new_autopsy_file.pdf",
+          "description": "New autopsy file description"
         }
       ]
     },
