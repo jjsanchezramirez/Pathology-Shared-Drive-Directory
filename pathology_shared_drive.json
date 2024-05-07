@@ -4,9 +4,9 @@
       "name": "Autopsy",
       "files": [
         {
-          "name": "New_Autopsy_File",
-          "address": "https://example.com/new_autopsy_file.pdf",
-          "description": "Cookies and cream"
+          "name": "Autopsy_Report_2.pdf",
+          "address": "https://example.com/autopsy_files/Autopsy_Report_2.pdf",
+          "description": "Autopsy report"
         },
         {
           "name": "Autopsy_Report_2.pdf",
