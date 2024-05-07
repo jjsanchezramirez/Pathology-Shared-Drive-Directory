@@ -4,7 +4,7 @@
       "name": "Autopsy",
       "files": [
         {
-          "name": "New_Autopsy_File.pdf",
+          "name": "New_Autopsy_File",
           "address": "https://example.com/new_autopsy_file.pdf",
           "description": "Cookies"
         },
