@@ -9,9 +9,9 @@
           "description": "Cream and sugar"
         },
         {
-          "name": "Autopsy_Report_2.pdf",
-          "address": "https://example.com/autopsy_files/Autopsy_Report_2.pdf",
-          "description": "Autopsy report for case 2"
+          "name": "New_Autopsy_File",
+          "address": "https://example.com/new_autopsy_file.pdf",
+          "description": "Cream and sugar"
         },
         {
           "name": "Autopsy_Slides.zip",
