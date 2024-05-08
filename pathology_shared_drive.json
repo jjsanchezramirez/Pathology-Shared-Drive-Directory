@@ -4,7 +4,7 @@
       "name": "Autopsy",
       "files": [
         {
-          "name": "Autopsy Protocol",
+          "name": "Standard Autopsy Protocol",
           "address": "https://example.com/autopsy_files/Autopsy_Protocol.pdf",
           "description": "Standard procedure for conducting autopsies"
         },
