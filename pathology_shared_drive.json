@@ -4,9 +4,9 @@
       "name": "Autopsy",
       "files": [
         {
-          "name": "Standard Autopsy Protocol",
-          "address": "https://example.com/autopsy_files/Autopsy_Protocol.pdf",
-          "description": "Standard procedure for conducting autopsies"
+          "name": "Standard Adult Autopsy Protocol",
+          "address": "https://example.com/autopsy_files/Adult_Autopsy_Protocol.pdf",
+          "description": "Standard procedure for conducting adult autopsies"
         },
         {
           "name": "Autopsy Findings",
