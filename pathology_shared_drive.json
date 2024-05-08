@@ -17,6 +17,12 @@
           "name": "Autopsy Consent Form",
           "address": "/Users/juansanchez/Documents/aster2007.pdf",
           "description": "Form for obtaining consent for autopsy procedures"
+        },
+        {
+          "name": "New File",
+          "address": "/Users/juansanchez/Documents/New Board Review/CP/Transfusion Medicine/ASCP BB review 2009/07 Drug Induced Hemolytic Anemia.pdf",
+          "description": "Description goes here",
+          "id": "3"
         }
       ]
     },
