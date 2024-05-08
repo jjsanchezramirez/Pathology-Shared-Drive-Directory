@@ -29,7 +29,7 @@
       "name": "Neuropathology",
       "files": [
         {
-          "name": "Neuropathology_Report_1.pdf",
+          "name": "Neuropathology Report",
           "address": "https://example.com/neuropathology_files/Neuropathology_Report_1.pdf",
           "description": "Neuropathology report for case 1"
         },
