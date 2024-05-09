@@ -44,12 +44,6 @@
           "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Guidelines.pdf",
           "description": "Guidelines for reporting surgical pathology specimens",
           "id": 2
-        },
-        {
-          "name": "New file",
-          "address": "New file.doc",
-          "description": "New file",
-          "id": 3
         }
       ],
       "id": 1
