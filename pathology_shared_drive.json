@@ -50,6 +50,12 @@
           "address": "File",
           "description": "File",
           "id": 3
+        },
+        {
+          "name": "New file",
+          "address": "New file",
+          "description": "New file",
+          "id": "4"
         }
       ],
       "id": 1
