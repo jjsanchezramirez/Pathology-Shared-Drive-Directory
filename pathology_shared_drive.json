@@ -6,25 +6,23 @@
         {
           "name": "Standard Autopsy Protocol",
           "address": "/Users/juansanchez/Documents/Personal Documents/Brain Zap/assets/Images/DrAlbright/DrAlbright@4x.png",
-          "description": "Standard procedure for conducting adult autopsies"
+          "description": "Standard procedure for conducting adult autopsies",
+          "id": 0
         },
         {
           "name": "Autopsy Findings",
           "address": "/Users/juansanchez/Documents/New Board Review/CP/Transfusion Medicine/Practice BB Questions.doc",
-          "description": "Detailed findings from autopsy examinations"
+          "description": "Detailed findings from autopsy examinations",
+          "id": 1
         },
         {
           "name": "Autopsy Consent Form",
           "address": "/Users/juansanchez/Documents/aster2007.pdf",
-          "description": "Form for obtaining consent for autopsy procedures"
-        },
-        {
-          "name": "New File",
-          "address": "/Users/juansanchez/Documents/New Board Review/CP/Transfusion Medicine/ASCP BB review 2009/07 Drug Induced Hemolytic Anemia.pdf",
-          "description": "Description goes here",
-          "id": "3"
+          "description": "Form for obtaining consent for autopsy procedures",
+          "id": 2
         }
-      ]
+      ],
+      "id": 0
     },
     {
       "name": "Surgical Pathology",
@@ -32,24 +30,29 @@
         {
           "name": "Surgical Pathology Atlas",
           "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Atlas.pdf",
-          "description": "Comprehensive atlas of surgical pathology"
+          "description": "Comprehensive atlas of surgical pathology",
+          "id": 0
         },
         {
           "name": "Surgical Pathology Case Studies",
           "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Case_Studies.pdf",
-          "description": "Case studies illustrating surgical pathology diagnoses"
+          "description": "Case studies illustrating surgical pathology diagnoses",
+          "id": 1
         },
         {
           "name": "Surgical Pathology Guidelines",
           "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Guidelines.pdf",
-          "description": "Guidelines for reporting surgical pathology specimens"
+          "description": "Guidelines for reporting surgical pathology specimens",
+          "id": 2
         },
         {
           "name": "asd",
           "address": "/Users/juansanchez/Documents/New Board Review/CP/Transfusion Medicine/bb_jeopardy_1.ppt",
-          "description": "asd"
+          "description": "asd",
+          "id": 3
         }
-      ]
+      ],
+      "id": 1
     },
     {
       "name": "Hematopathology",
@@ -57,19 +60,23 @@
         {
           "name": "Hematopathology Report",
           "address": "https://example.com/hematopathology_files/Hematopathology_Report.pdf",
-          "description": "Detailed report on hematopathology findings"
+          "description": "Detailed report on hematopathology findings",
+          "id": 0
         },
         {
           "name": "Hematopathology Atlas",
           "address": "https://example.com/hematopathology_files/Hematopathology_Atlas.pdf",
-          "description": "Atlas of hematopathology specimens"
+          "description": "Atlas of hematopathology specimens",
+          "id": 1
         },
         {
           "name": "Hematopathology Protocols",
           "address": "https://example.com/hematopathology_files/Hematopathology_Protocols.pdf",
-          "description": "Protocols for processing hematopathology samples"
+          "description": "Protocols for processing hematopathology samples",
+          "id": 2
         }
-      ]
+      ],
+      "id": 2
     },
     {
       "name": "Transfusion Medicine",
@@ -77,19 +84,23 @@
         {
           "name": "Transfusion Medicine Guidelines",
           "address": "https://example.com/transfusion_medicine_files/Transfusion_Medicine_Guidelines.pdf",
-          "description": "Guidelines for blood transfusion procedures"
+          "description": "Guidelines for blood transfusion procedures",
+          "id": 0
         },
         {
           "name": "Transfusion Reaction Protocol",
           "address": "https://example.com/transfusion_medicine_files/Transfusion_Reaction_Protocol.pdf",
-          "description": "Protocol for managing transfusion reactions"
+          "description": "Protocol for managing transfusion reactions",
+          "id": 1
         },
         {
           "name": "Blood Product Inventory",
           "address": "https://example.com/transfusion_medicine_files/Blood_Product_Inventory.xlsx",
-          "description": "Inventory list of available blood products"
+          "description": "Inventory list of available blood products",
+          "id": 2
         }
-      ]
+      ],
+      "id": 3
     },
     {
       "name": "Clinical Pathology",
@@ -97,19 +108,23 @@
         {
           "name": "Clinical Pathology Handbook",
           "address": "https://example.com/clinical_pathology_files/Clinical_Pathology_Handbook.pdf",
-          "description": "Handbook for clinical pathology laboratory procedures"
+          "description": "Handbook for clinical pathology laboratory procedures",
+          "id": 0
         },
         {
           "name": "Clinical Pathology Protocols",
           "address": "https://example.com/clinical_pathology_files/Clinical_Pathology_Protocols.pdf",
-          "description": "Protocols for various clinical pathology tests"
+          "description": "Protocols for various clinical pathology tests",
+          "id": 1
         },
         {
           "name": "Clinical Pathology Case Studies",
           "address": "https://example.com/clinical_pathology_files/Clinical_Pathology_Case_Studies.pdf",
-          "description": "Case studies demonstrating clinical pathology diagnoses"
+          "description": "Case studies demonstrating clinical pathology diagnoses",
+          "id": 2
         }
-      ]
+      ],
+      "id": 4
     },
     {
       "name": "Residency Program Documents",
@@ -117,19 +132,23 @@
         {
           "name": "Residency Handbook",
           "address": "https://example.com/residency_files/Residency_Handbook.pdf",
-          "description": "Handbook for residents"
+          "description": "Handbook for residents",
+          "id": 0
         },
         {
           "name": "Residency Curriculum",
           "address": "https://example.com/residency_files/Residency_Curriculum.pdf",
-          "description": "Curriculum details for residents"
+          "description": "Curriculum details for residents",
+          "id": 1
         },
         {
           "name": "Residency Policies",
           "address": "https://example.com/residency_files/Residency_Policies.pdf",
-          "description": "Policies and procedures for residents"
+          "description": "Policies and procedures for residents",
+          "id": 2
         }
-      ]
+      ],
+      "id": 5
     }
   ]
 }
