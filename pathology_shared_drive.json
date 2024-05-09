@@ -69,9 +69,9 @@
           "description": "Detailed instructions on how to write orders and procedures for the Transfusion Medicine service"
         },
         {
-          "name": "Transfusion Reaction Protocol",
-          "address": "https://example.com/transfusion_medicine_files/Transfusion_Reaction_Protocol.pdf",
-          "description": "Protocol for managing transfusion reactions"
+          "name": "Antibodies, Transfusion Reactions, and MDOKs",
+          "address": "S:\\AA CP SERVICE ORIENTATION\\TRANSFUSION MEDICINE\\ANTIBODY PANELS, TRANSFUSION RXNS, MDOK\\Epic Smart Text Ab Tx Rxn MDOK.xlsx",
+          "description": "Templates for transfusion reaction workups, antibody panels, irradiated blood products and more"
         },
         {
           "name": "Blood Product Inventory",
