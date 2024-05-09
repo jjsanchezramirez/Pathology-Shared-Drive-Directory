@@ -22,11 +22,6 @@
           "name": "Surgical Pathology Case Studies",
           "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Case_Studies.pdf",
           "description": "Case studies illustrating surgical pathology diagnoses"
-        },
-        {
-          "name": "Surgical Pathology Guidelines",
-          "address": "https://example.com/surgical_pathology_files/Surgical_Pathology_Guidelines.pdf",
-          "description": "Guidelines for reporting surgical pathology specimens"
         }
       ]
     },
