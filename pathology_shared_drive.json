@@ -107,6 +107,11 @@
           "name": "Call Resources Folder",
           "address": "S:\\5249RCP-New\\MASTER CALL SCHEDULE\\Call Resources",
           "description": "Folder containing many useful resources for handling AP and CP call issues"
+        },
+        {
+          "name": "Molavi Schedule 2023-2024",
+          "address": "S:\\5249RCP-New\\Molavi Conference\\Molavi schedule 23-24.xlms",
+          "description": "Molavi Conference Schedule for 2023-2024"
         }
       ]
     }
