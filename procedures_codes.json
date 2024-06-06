@@ -1,82 +1,117 @@
 [
-  {"code": "1119", "name": "Re-amputation",                                                "common": false},
-  {"code": "1110", "name": "Amputation, NOS",                                              "common": true },
-  {"code": "1121", "name": "Excision, radical or extended, with lymph node dissection",    "common": false},
-  {"code": "1122", "name": "Excision, radical with en bloc resection of regional tissues", "common": false},
-  {"code": "1120", "name": "Excision, radical or extended",                                "common": false},
-  {"code": "1141", "name": "Excisional biopsy",                                            "common": false},
-  {"code": "1142", "name": "Open biopsy",                                                  "common": false},
-  {"code": "1143", "name": "Needle biopsy",                                                "common": true },
-  {"code": "1143", "name": "Core needle biopsy",                                           "common": true },
-  {"code": "1144", "name": "Aspiration",                                                   "common": false},
-  {"code": "1144", "name": "Fine needle aspiration (FNA)",                                 "common": true },
-  {"code": "1147", "name": "Shave biopsy",                                                 "common": true },
-  {"code": "1148", "name": "Punch biopsy",                                                 "common": true },
-  {"code": "1140", "name": "Biopsy, NOS",                                                  "common": true },
-  {"code": "1154", "name": "Curretage, NOS",                                               "common": true },
-  {"code": "1154", "name": "Scraping",                                                     "common": false},
-  {"code": "1160", "name": "Removal, NOS",                                                 "common": true },
-  {"code": "1160", "name": "Extraction",                                                   "common": false},
-  {"code": "1170", "name": "Excision and prosthetic replacement",                          "common": false},
-  {"code": "1101", "name": "Excision, local",                                              "common": false},
-  {"code": "1102", "name": "Enucleation",                                                  "common": false},
-  {"code": "1103", "name": "Excision, wedge",                                              "common": true },
-  {"code": "1104", "name": "Excision, partial",                                            "common": false},
-  {"code": "1105", "name": "Excision, partial, one half of organ or structure",            "common": false},
-  {"code": "1106", "name": "Excision, complete or total",                                  "common": false},
-  {"code": "1109", "name": "Re-excision",                                                  "common": false},
-  {"code": "1100", "name": "Excision or resection (-ectomy)",                              "common": true },
-  {"code": "1100", "name": "Adrenalectomy",                                                "common": true },
-  {"code": "1100", "name": "Appendectomy",                                                 "common": true },
-  {"code": "1100", "name": "Cholecystectomy",                                              "common": true },
-  {"code": "1100", "name": "Colectomy",                                                    "common": true },
-  {"code": "1100", "name": "Cystectomy",                                                   "common": true },
-  {"code": "1100", "name": "Esophagectomy",                                                "common": true },
-  {"code": "1100", "name": "Gastrectomy",                                                  "common": true },
-  {"code": "1100", "name": "Hemicolectomy",                                                "common": true },
-  {"code": "1100", "name": "Hepatectomy",                                                  "common": true },
-  {"code": "1100", "name": "Hysterectomy",                                                 "common": true },
-  {"code": "1100", "name": "Laminectomy",                                                  "common": true },
-  {"code": "1100", "name": "Laryngectomy",                                                 "common": true },
-  {"code": "1100", "name": "Mastectomy",                                                   "common": true },
-  {"code": "1100", "name": "Nephrectomy",                                                  "common": true },
-  {"code": "1100", "name": "Oophorectomy",                                                 "common": true },
-  {"code": "1100", "name": "Orchiectomy",                                                  "common": true },
-  {"code": "1100", "name": "Pancreatectomy",                                               "common": true },
-  {"code": "1100", "name": "Pancreatoduodenectomy (Whipple procedure)",                    "common": true },
-  {"code": "1100", "name": "Parathyroidectomy",                                            "common": true },
-  {"code": "1100", "name": "Pneumonectomy",                                                "common": true },
-  {"code": "1100", "name": "Prostatectomy",                                                "common": true },
-  {"code": "1100", "name": "Salpingectomy",                                                "common": true },
-  {"code": "1100", "name": "Salpingo-oophorectomy",                                        "common": true },
-  {"code": "1100", "name": "Splenectomy",                                                  "common": true },
-  {"code": "1100", "name": "Thyroidectomy",                                                "common": true },
-  {"code": "1100", "name": "Tonsillectomy",                                                "common": true },
-  {"code": "1100", "name": "Ureterectomy",                                                 "common": true },
-  {"code": "1100", "name": "Vasectomy",                                                    "common": true },
-  {"code": "11X2", "name": "Excision, transurethral approach (TURP)",                      "common": true },
-  {"code": "11X2", "name": "Transurethral resection of the prostate (TURP)",               "common": true },
-  {"code": "1278", "name": "Removal of therapeutic device",                                "common": false},
-  {"code": "1312", "name": "Endoscopy and removal of foreign material",                    "common": false},
-  {"code": "1340", "name": "Endoscopic biopsy",                                            "common": true },
-  {"code": "1452", "name": "Surgical construction of stoma (-ostomy)",                     "common": false},
-  {"code": "1450", "name": "Surgical construction of anastomosis (-ostomy)",               "common": false},
-  {"code": "1462", "name": "Surgical repair and revision of stoma",                        "common": false},
-  {"code": "1460", "name": "Surgical repair and revision of anastomosis",                  "common": false},
-  {"code": "1513", "name": "Mohs chemosurgery, fresh tissue technique",                    "common": false},
-  {"code": "1514", "name": "Mohs chemosurgery, fixed tissue technique",                    "common": false},
-  {"code": "1540", "name": "Decortication, NOS",                                           "common": false},
-  {"code": "1560", "name": "Crushing (e.g. lithotripsy)",                                  "common": false},
-  {"code": "1580", "name": "Stripping, NOS (e.g. vocal cord)",                             "common": false},
-  {"code": "1500", "name": "Destruction, NOS",                                             "common": false},
-  {"code": "1710", "name": "Extraction, NOS",                                              "common": false},
-  {"code": "1000", "name": "Incision (-otomy)",                                            "common": false},
-  {"code": "3083", "name": "Surgical pathology re-review",                                 "common": false},
-  {"code": "3120", "name": "Preparation of touch preps or fine needle aspiration smears",  "common": false},
-  {"code": "3238", "name": "Gross organ or tissue photography",                            "common": false},
-  {"code": "3250", "name": "Electron microscopic examination",                             "common": false},
-  {"code": "3050", "name": "Gross examination only",                                       "common": true },
-  {"code": "3082", "name": "Frozen section examination",                                   "common": true },
-  {"code": "3084", "name": "Consultation, surgical pathology review and report",           "common": false},
-  {"code": "3086", "name": "Immunopathology consultation and report",                      "common": false}
+  {"code": "1000", "name": "Incision (-otomy)", "common": false},
+  {"code": "1100", "name": "Excision or resection (-ectomy)", "common": true},
+  {"code": "1101", "name": "Excision, local", "common": false},
+  {"code": "1102", "name": "Enucleation", "common": false},
+  {"code": "1103", "name": "Excision, wedge", "common": true},
+  {"code": "1104", "name": "Excision, partial", "common": false},
+  {
+    "code": "1105",
+    "name": "Excision, partial, one half of organ or structure",
+    "common": false
+  },
+  {"code": "1106", "name": "Excision, complete or total", "common": false},
+  {"code": "1109", "name": "Re-excision", "common": false},
+  {"code": "1110", "name": "Amputation, NOS", "common": true},
+  {"code": "1119", "name": "Re-amputation", "common": false},
+  {"code": "1120", "name": "Excision, radical or extended", "common": false},
+  {
+    "code": "1121",
+    "name": "Excision, radical or extended, with lymph node dissection",
+    "common": false
+  },
+  {
+    "code": "1122",
+    "name": "Excision, radical with en bloc resection of regional tissues",
+    "common": false
+  },
+  {"code": "1140", "name": "Biopsy, NOS", "common": true},
+  {"code": "1141", "name": "Excisional biopsy", "common": false},
+  {"code": "1142", "name": "Open biopsy", "common": false},
+  {"code": "1143", "name": "Needle biopsy", "common": true},
+  {"code": "1144", "name": "Aspiration", "common": false},
+  {"code": "1147", "name": "Shave biopsy", "common": true},
+  {"code": "1148", "name": "Punch biopsy", "common": true},
+  {"code": "1154", "name": "Curretage, NOS", "common": true},
+  {"code": "1160", "name": "Removal, NOS", "common": true},
+  {
+    "code": "1170",
+    "name": "Excision and prosthetic replacement",
+    "common": false
+  },
+  {
+    "code": "11X2",
+    "name": "Excision, transurethral approach (TURP)",
+    "common": true
+  },
+  {"code": "1278", "name": "Removal of therapeutic device", "common": false},
+  {
+    "code": "1312",
+    "name": "Endoscopy and removal of foreign material",
+    "common": false
+  },
+  {"code": "1340", "name": "Endoscopic biopsy", "common": true},
+  {
+    "code": "1450",
+    "name": "Surgical construction of anastomosis (-ostomy)",
+    "common": false
+  },
+  {
+    "code": "1452",
+    "name": "Surgical construction of stoma (-ostomy)",
+    "common": false
+  },
+  {
+    "code": "1460",
+    "name": "Surgical repair and revision of anastomosis",
+    "common": false
+  },
+  {
+    "code": "1462",
+    "name": "Surgical repair and revision of stoma",
+    "common": false
+  },
+  {"code": "1500", "name": "Destruction, NOS", "common": false},
+  {
+    "code": "1513",
+    "name": "Mohs chemosurgery, fresh tissue technique",
+    "common": false
+  },
+  {
+    "code": "1514",
+    "name": "Mohs chemosurgery, fixed tissue technique",
+    "common": false
+  },
+  {"code": "1540", "name": "Decortication, NOS", "common": false},
+  {"code": "1560", "name": "Crushing (e.g. lithotripsy)", "common": false},
+  {
+    "code": "1580",
+    "name": "Stripping, NOS (e.g. vocal cord)",
+    "common": false
+  },
+  {"code": "1710", "name": "Extraction, NOS", "common": false},
+  {"code": "3050", "name": "Gross examination only", "common": true},
+  {"code": "3082", "name": "Frozen section examination", "common": true},
+  {"code": "3083", "name": "Surgical pathology re-review", "common": false},
+  {
+    "code": "3084",
+    "name": "Consultation, surgical pathology review and report",
+    "common": false
+  },
+  {
+    "code": "3086",
+    "name": "Immunopathology consultation and report",
+    "common": false
+  },
+  {
+    "code": "3120",
+    "name": "Preparation of touch preps or fine needle aspiration smears",
+    "common": false
+  },
+  {
+    "code": "3238",
+    "name": "Gross organ or tissue photography",
+    "common": false
+  },
+  {"code": "3250", "name": "Electron microscopic examination", "common": false}
 ]
