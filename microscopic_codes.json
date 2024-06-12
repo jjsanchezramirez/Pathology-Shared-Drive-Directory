@@ -1,5 +1,4 @@
 [
-  /* Convenience codes */
   {"code": "00100", "name": "Normal tissue morphology"},
   {"code": "01000", "name": "Morphologic abnormality"},
   {"code": "09000", "name": "Insufficient tissue for diagnosis"},
@@ -7,17 +6,19 @@
   {"code": "09150", "name": "Tissue lost in processing"},
   {"code": "09450", "name": "Negative for malignancy"},
   {"code": "09530", "name": "Morphologic description"},
-  /* Solar injury related lesions */
+  {"code": "10000", "name": "Injury", "alt": "Trauma"},
   {"code": "11340", "name": "Erythema pernio"},
   {"code": "11350", "name": "Angiokeratoma of Mibelli"},
   {"code": "11410", "name": "Photodermatitis"},
   {"code": "11440", "name": "Photoallergicdermatitis"},
   {"code": "11520", "name": "Solar urticaria"},
   {"code": "11520", "name": "Actinic reticuloid"},
-  {"code": "11520", "name": "Granuloma, actinic", "alt": "Granuloma, Miescher"},
+  {
+    "code": "11520"              ,
+    "name": "Granuloma, actinic" ,
+    "alt" : "Granuloma, Miescher"
+  },
   {"code": "11560", "name": "Actinic cheilitis"},
-  /* */
-  {"code": "10000", "name": "Injury", "alt": "Trauma"},
   {"code": "11600", "name": "Injury, radiation"},
   {"code": "12000", "name": "Fracture"},
   {"code": "12000", "name": "Wound"},
@@ -34,7 +35,11 @@
   {"code": "20000", "name": "Congenital deformity", "alt": "Malformation"},
   {"code": "20400", "name": "Atresia"},
   {"code": "21000", "name": "Absence, congenital"},
-  {"code": "22300", "name": "Accessory structure", "alt": "Supernumerary structure"},
+  {
+    "code": "22300"                  ,
+    "name": "Accessory structure"    ,
+    "alt" : "Supernumerary structure"
+  },
   {"code": "24810", "name": "Arteriovenous malformation", "abbr": "AVM"},
   {"code": "26500", "name": "Cyst, thyroglossal duct"},
   {"code": "26560", "name": "Cyst, dentigerous", "alt": "Cyst, odontogenic"},
@@ -58,7 +63,12 @@
   {"code": "33200", "name": "Mucocele"},
   {"code": "33380", "name": "Hydrocele"},
   {"code": "33400", "name": "Cyst"},
-  {"code": "33410", "name": "Cyst, epidermal inclusion", "alt": "Cyst, epithelial inclusion", "abbr": "EIC"},
+  {
+    "code": "33410"                     ,
+    "name": "Cyst, epidermal inclusion" ,
+    "alt" : "Cyst, epithelial inclusion",
+    "abbr": "EIC"
+  },
   {"code": "33412", "name": "Cyst, ruptured"},
   {"code": "33470", "name": "Cyst, trichilemmal", "alt": "Cyst, pilar"},
   {"code": "33490", "name": "Pseudocyst"},
@@ -103,8 +113,17 @@
   {"code": "43000", "name": "Inflammation, chronic"},
   {"code": "43080", "name": "Inflammation, follicular"},
   {"code": "43130", "name": "Pneumonia or pneumonitis, lymphoid interstitial"},
-  {"code": "43140", "name": "Pneumonia or pneumonitis, usual interstitial", "alt": "Idiopathic pulmonary fibrosis", "abbr": "UIP, IPF"},
-  {"code": "43150", "name": "Pneumonia or pneumonitis, desquamative interstitial", "abbr": "DIP"},
+  {
+    "code": "43140"                                       ,
+    "name": "Pneumonia or pneumonitis, usual interstitial",
+    "alt" : "Idiopathic pulmonary fibrosis"               ,
+    "abbr": "UIP, IPF"
+  },
+  {
+    "code": "43150"                                              ,
+    "name": "Pneumonia or pneumonitis, desquamative interstitial",
+    "abbr": "DIP"
+  },
   {"code": "43180", "name": "Malakoplakia"},
   {"code": "43750", "name": "Chondrodermatitis nodularis helicis"},
   {"code": "44000", "name": "Inflammation, granulomatous"},
@@ -119,7 +138,6 @@
   {"code": "44210", "name": "Granuloma, sarcoid"},
   {"code": "44440", "name": "Granuloma, pyogenic"},
   {"code": "44700", "name": "Granuloma, caseating"},
-  {"code": "95800", "name": "Tumor, granular cell"},
   {"code": "44710", "name": "Lymphoma, B-cell, lymphomatoid granulomatosis"},
   {"code": "44920", "name": "Granuloma annulare", "abbr": "GA"},
   {"code": "44930", "name": "Necrobiosis lipoidica"},
@@ -136,24 +154,46 @@
   {"code": "46620", "name": "Acne rosacea"},
   {"code": "46770", "name": "Proliferative fascitis"},
   {"code": "46780", "name": "Proliferative myositis"},
+  {"code": "46800", "name": "Glomerulonephritis"},
+  {"code": "46840", "name": "Glomerulonephritis, membranoproliferative"},
+  {"code": "46860", "name": "Glomerulonephritis, mesangial"},
+  {"code": "46870", "name": "Glomerulonephritis, endocapillary"},
+  {
+    "code": "46880"                             ,
+    "name": "Glomerulonephritis, extracapillary",
+    "alt" : "Glomerulonephritis, crescentic"
+  },
   {"code": "47000", "name": "Inflammatory infiltrate"},
   {"code": "47110", "name": "Inflammatory infiltrate, acute"},
   {"code": "47120", "name": "Inflammatory infiltrate, subacute"},
-  {"code": "47160", "name": "Inflammatory infiltrate, chronic"},
   {"code": "47150", "name": "Inflammatory infiltrate, eosinophilic"},
+  {"code": "47160", "name": "Inflammatory infiltrate, chronic"},
   {"code": "47170", "name": "Inflammatory infiltrate, lymphocytic"},
   {"code": "47180", "name": "Inflammatory infiltrate, histiocytic"},
   {"code": "47190", "name": "Inflammatory infiltrate, plasmacytic"},
   {"code": "47210", "name": "Balanitis circumscripta plasmacellularis"},
   {"code": "47250", "name": "Jessner’s lymphocytic infiltrate of skin"},
   {"code": "47400", "name": "Folliculitis"},
-  {"code": "47800", "name": "Inflammation, perivascular", "alt": "Perivasculitis"},
-  {"code": "47830", "name": "Giant cell tumor of tendon sheath", "alt": "Pigmented villonodular tenosynovitis", "abbr": "PVTS"},
+  {
+    "code": "47800"                     ,
+    "name": "Inflammation, perivascular",
+    "alt" : "Perivasculitis"
+  },
+  {
+    "code": "47830"                               ,
+    "name": "Giant cell tumor of tendon sheath"   ,
+    "alt" : "Pigmented villonodular tenosynovitis",
+    "abbr": "PVTS"
+  },
   {"code": "48000", "name": "Dermatitis, eczematous"},
   {"code": "48060", "name": "Dermatitis, nummular"},
   {"code": "48120", "name": "Neurodermatitis"},
   {"code": "48130", "name": "Prurigo nodule"},
-  {"code": "48510", "name": "Dermatosis, acute febrile neutrophilic", "alt": "Sweet disease"},
+  {
+    "code": "48510"                                 ,
+    "name": "Dermatosis, acute febrile neutrophilic",
+    "alt" : "Sweet disease"
+  },
   {"code": "48540", "name": "Drug eruption"},
   {"code": "48560", "name": "Erythema multiforme"},
   {"code": "48610", "name": "Dermatitis, pigmented purpuric lichenoid"},
@@ -184,22 +224,23 @@
   {"code": "52200", "name": "Arteriolonephrosclerosis"},
   {"code": "53150", "name": "Necrosis, acute tubular"},
   {"code": "53160", "name": "Minimal change disease"},
-  {"code": "46800", "name": "Glomerulonephritis"},
-  {"code": "46870", "name": "Glomerulonephritis, endocapillary"},
-  {"code": "46880", "name": "Glomerulonephritis, extracapillary", "alt": "Glomerulonephritis, crescentic"},
-  {"code": "46840", "name": "Glomerulonephritis, membranoproliferative"},
-  {"code": "46860", "name": "Glomerulonephritis, mesangial"},
-  {"code": "68130IC", "name": "Glomerulonephritis, membranous"},
   {"code": "53300", "name": "Glomerulosclerosis"},
   {"code": "53301", "name": "Glomerulosclerosis, focal"},
   {"code": "53302", "name": "Glomerulosclerosis, diffuse"},
   {"code": "53320", "name": "Glomerulosclerosis, nodular"},
   {"code": "53340", "name": "Glomerulosclerosis (T-712OO), Segmental GS"},
-  {"code": "53341", "name": "Glomerulosclerosis (T-712OO), Focal and segmental GS"},
+  {
+    "code": "53341"                                               ,
+    "name": "Glomerulosclerosis (T-712OO), Focal and segmental GS"
+  },
+  {"code": "533X0", "name": "Xanthoma, verruciform"},
   {"code": "54000", "name": "Necrosis"},
   {"code": "54030", "name": "Aseptic necrosis, Necrosis, Aseptic"},
   {"code": "54110", "name": "Necrosis, Fat"},
-  {"code": "54200", "name": "Avascular necrosis, Ischemic change or necrosis, Necrosis, Avascular"},
+  {
+    "code": "54200",
+    "name": "Avascular necrosis, Ischemic change or necrosis, Necrosis, Avascular"
+  },
   {"code": "54600", "name": "Gangrene"},
   {"code": "54700", "name": "Infarct"},
   {"code": "55000", "name": "Deposition"},
@@ -210,7 +251,11 @@
   {"code": "55250", "name": "Cholesterolosis"},
   {"code": "55300", "name": "Xanthoma"},
   {"code": "55370", "name": "Xanthelasma"},
-  {"code": "55400", "name": "Deposition, calcium", "alt": "Microcalcification"},
+  {
+    "code": "55400"              ,
+    "name": "Deposition, calcium",
+    "alt" : "Microcalcification"
+  },
   {"code": "55760", "name": "Deposition, carbon"},
   {"code": "55800", "name": "Deposition, iron", "alt": "Hemosiderosis"},
   {"code": "55820", "name": "Deposition, asbestos"},
@@ -229,9 +274,15 @@
   {"code": "57740", "name": "Pigment, lipocfuscin"},
   {"code": "58000", "name": "Atrophy"},
   {"code": "58050", "name": "Atrophy, cystic"},
-  {"code": "58240", "name": "Lichen sclerosus et atrophicus", "alt": "Balanitis xerotica obliterans"},
+  {
+    "code": "58240"                         ,
+    "name": "Lichen sclerosus et atrophicus",
+    "alt" : "Balanitis xerotica obliterans"
+  },
   {"code": "58550", "name": "Poikiloderma"},
+  {"code": "636X006", "name": "Adenoma, sessile serrated", "abbr": "SSA"},
   {"code": "68130", "name": "Glomerulonephritis, membranous"},
+  {"code": "68130IC", "name": "Glomerulonephritis, membranous"},
   {"code": "69550", "name": "Foamy histiocytes"},
   {"code": "69700", "name": "Atypia, cytologic"},
   {"code": "69710", "name": "Atypia, cytologic, mild"},
@@ -243,7 +294,11 @@
   {"code": "71000", "name": "Hypertrophy"},
   {"code": "71600", "name": "Goiter"},
   {"code": "71620", "name": "Goiter, colloid", "alt": "Goiter, simple"},
-  {"code": "71640", "name": "Goiter, adenomatous", "alt": "Goiter, multinodular"},
+  {
+    "code": "71640"               ,
+    "name": "Goiter, adenomatous" ,
+    "alt" : "Goiter, multinodular"
+  },
   {"code": "72000", "name": "Hyperplasia"},
   {"code": "72005", "name": "Hyperplasia, atypical"},
   {"code": "72040", "name": "Polyp, hyperplastic"},
@@ -256,8 +311,17 @@
   {"code": "72220", "name": "Dermatopathic lymphadenopathy"},
   {"code": "72230", "name": "Lymphoma, B-cell, lymphomatoid papulosis"},
   {"code": "72240", "name": "Benign lymphoepithelial lesion"},
-  {"code": "72260", "name": "Castleman disease", "alt": "Hyperplasia, angiofollicular"},
-  {"code": "72280", "name": "Lymphoma, T-cell, angioimmunoblastic", "alt": "Lymphoma, nodal T follicular helper cell, angioimmunoblastic type", "abbr": "AITL"},
+  {
+    "code": "72260"                       ,
+    "name": "Castleman disease"           ,
+    "alt" : "Hyperplasia, angiofollicular"
+  },
+  {
+    "code": "72280",
+    "name": "Lymphoma, T-cell, angioimmunoblastic",
+    "alt": "Lymphoma, nodal T follicular helper cell, angioimmunoblastic type",
+    "abbr": "AITL"
+  },
   {"code": "72400", "name": "Hyperplasia, Glandular and stromal"},
   {"code": "72420", "name": "Hyperplasia, Glandular"},
   {"code": "72425", "name": "Atypical adenomatous hyperplasia"},
@@ -295,7 +359,11 @@
   {"code": "74200", "name": "Adenosis"},
   {"code": "74220", "name": "Adenosis, sclerosing"},
   {"code": "74320", "name": "Fibrocystic disease"},
-  {"code": "74440", "name": "Darier disease", "alt": "Dyskeratosis follicularis"},
+  {
+    "code": "74440"                    ,
+    "name": "Darier disease"           ,
+    "alt" : "Dyskeratosis follicularis"
+  },
   {"code": "74910", "name": "Dysplasia, fibrous"},
   {"code": "74970", "name": "Paget disease of bone"},
   {"code": "75300", "name": "Hypoplasia"},
@@ -308,7 +376,11 @@
   {"code": "75740", "name": "Nevus, Linear epidermal"},
   {"code": "75750", "name": "Nevus, Sebaceus"},
   {"code": "76100", "name": "Fibromatosis"},
-  {"code": "76120", "name": "Fibromatosis, palmar or plantar", "alt": "Dupuytren disease, Ledderhose disease"},
+  {
+    "code": "76120"                                ,
+    "name": "Fibromatosis, palmar or plantar"      ,
+    "alt" : "Dupuytren disease, Ledderhose disease"
+  },
   {"code": "76300", "name": "Angiectasis, Telangiectasia"},
   {"code": "76500", "name": "Endometriosis"},
   {"code": "76510", "name": "Adenomyosis"},
@@ -322,7 +394,10 @@
   {"code": "77810", "name": "Sinus histiocytosis"},
   {"code": "77860", "name": "Granuloma, Eosinophilic granuloma of"},
   {"code": "77910", "name": "Histiocytosis X"},
-  {"code": "77940", "name": "Sinus histiocytosis with massive lymphadenopathy (Rosai-Dorfman disease)"},
+  {
+    "code": "77940",
+    "name": "Sinus histiocytosis with massive lymphadenopathy (Rosai-Dorfman disease)"
+  },
   {"code": "79310", "name": "Endometrium"},
   {"code": "79310", "name": "Endometrium, proliferative"},
   {"code": "79320", "name": "Endometrium, secretory"},
@@ -348,7 +423,11 @@
   {"code": "80523", "name": "Carcinoma, squamous cell, papillary"},
   {"code": "80530", "name": "Papilloma, inverted"},
   {"code": "80600", "name": "Papillomatosis"},
-  {"code": "80702", "name": "Carcinoma in situ, squamous cell", "abbr": "SCCIS"},
+  {
+    "code": "80702"                           ,
+    "name": "Carcinoma in situ, squamous cell",
+    "abbr": "SCCIS"
+  },
   {"code": "80703", "name": "Carcinoma, squamous cell", "abbr": "SCC"},
   {"code": "80706", "name": "Carcinoma, squamous cell, metastatic"},
   {"code": "80763", "name": "Carcinoma, squamous cell, microinvasive"},
@@ -368,29 +447,46 @@
   {"code": "81403", "name": "Adenocarcinoma"},
   {"code": "81406", "name": "Adenocarcinoma, metastatic"},
   {"code": "81603", "name": "Cholangiocarcinoma"},
-  {"code": "81703", "name": "Carcinoma, hepatocellular, Hepatocellular carcinoma", "abbr": "HCC"},
+  {
+    "code": "81703"                                              ,
+    "name": "Carcinoma, hepatocellular, Hepatocellular carcinoma",
+    "abbr": "HCC"
+  },
   {"code": "82000", "name": "Cylindroma"},
   {"code": "82003", "name": "Carcinoma, adenoid cystic"},
   {"code": "82110", "name": "Adenoma, tubular", "abbr": "TA"},
   {"code": "82113", "name": ".….Microinvasive SCC, Tubular carcinoma"},
-  {"code": "82401", "name": "Tumor, neuroendocrine, well differentiated", "alt": "Tumor, carcinoid"},
+  {
+    "code": "82401"                                     ,
+    "name": "Tumor, neuroendocrine, well differentiated",
+    "alt" : "Tumor, carcinoid"
+  },
   {"code": "82503", "name": "Adenocarcinoma, lepidic"},
   {"code": "82603", "name": "Adenocarcinoma, papillary"},
   {"code": "82611", "name": "Adenoma, villous", "abbr": "VA"},
   {"code": "82630", "name": "Adenoma, tubulovillous", "abbr": "TVA"},
-  {"code": "636X006", "name": "Adenoma, sessile serrated", "abbr": "SSA"},
-  {"code": "82900", "name": "Adenoma, oxyphilic", "alt": "Adenoma, Hürthle cell"},
-  {"code": "82903", "name": "Carcinoma, oxyphilic", "alt": "Carcinoma, Hürthle cell"},
+  {
+    "code": "82900"                ,
+    "name": "Adenoma, oxyphilic"   ,
+    "alt" : "Adenoma, Hürthle cell"
+  },
+  {
+    "code": "82903"                  ,
+    "name": "Carcinoma, oxyphilic"   ,
+    "alt" : "Carcinoma, Hürthle cell"
+  },
   {"code": "83103", "name": "Carcinoma, clear cell"},
   {"code": "83123", "name": "Carcinoma, renal cell"},
   {"code": "83300", "name": "Adenoma, follicular"},
   {"code": "83303", "name": "Carcinoma, follicular"},
   {"code": "83700", "name": "Adenoma, adrenal cortical"},
   {"code": "83703", "name": "Carcinoma, adrenal cortical"},
-  {"code": "86710", "name": "Adrenal rest"},
   {"code": "83803", "name": "Carcinoma, endometrioid"},
   {"code": "83900", "name": "Tumor, adnexal (appendage)"},
-  {"code": "83903", "name": "Carcinoma, of Skin appendage, Skin appendage carcinoma"},
+  {
+    "code": "83903"                                                 ,
+    "name": "Carcinoma, of Skin appendage, Skin appendage carcinoma"
+  },
   {"code": "84000", "name": "Hidradenoma"},
   {"code": "84303", "name": "Carcinoma, mucoepidermoid", "abbr": "MEC"},
   {"code": "84400", "name": "Cystadenoma"},
@@ -402,7 +498,11 @@
   {"code": "84803", "name": "Adenocarcinoma, mucinous"},
   {"code": "84903", "name": "Carcinoma, signet ring cell"},
   {"code": "85002", "name": "Carcinoma in situ, ductal", "abbr": "DCIS"},
-  {"code": "85003", "name": "Carcinoma, ductal", "alt": "Carcinoma of no special type (NST)"},
+  {
+    "code": "85003"                             ,
+    "name": "Carcinoma, ductal"                 ,
+    "alt" : "Carcinoma of no special type (NST)"
+  },
   {"code": "85030", "name": "Papilloma, intraductal"},
   {"code": "85032", "name": "Carcinoma, Intraductal papillary"},
   {"code": "85050", "name": "Papillomatosis"},
@@ -419,6 +519,7 @@
   {"code": "85800", "name": "Thymoma"},
   {"code": "85901", "name": "Gonadal stromal tumor"},
   {"code": "86201", "name": "Granulosa cell tumor"},
+  {"code": "86710", "name": "Adrenal rest"},
   {"code": "86801", "name": "Paraganglioma"},
   {"code": "86921", "name": "Tumor, NOS, Carotid body"},
   {"code": "86931", "name": "Chemodectoma"},
@@ -429,7 +530,10 @@
   {"code": "87206", "name": "Melanoma, metastatic"},
   {"code": "87213", "name": "Melanoma, nodular"},
   {"code": "87220", "name": "Nevus, balloon cell"},
-  {"code": "87240", "name": "Angiofibroma of the nose (fibrous papule, adenoma sebaceum)"},
+  {
+    "code": "87240"                                                      ,
+    "name": "Angiofibroma of the nose (fibrous papule, adenoma sebaceum)"
+  },
   {"code": "87400", "name": "Nevus, Junctional"},
   {"code": "87422", "name": "Lentigo maligna (MIS)"},
   {"code": "87423", "name": "Melanoma, lentigo maligna"},
@@ -443,9 +547,18 @@
   {"code": "88103", "name": "Fibrosarcoma", "abbr": "FS"},
   {"code": "88211", "name": "Fibromatosis, desmoid", "alt": "Tumor, desmoid"},
   {"code": "88300", "name": "Fibrous histiocytoma", "abbr": "FH"},
-  {"code": "88303", "name": "Sarcoma, undifferentiated", "alt": "Malignant fibrous histiocytoma", "abbr": "US, UPS, MFH"},
+  {
+    "code": "88303"                         ,
+    "name": "Sarcoma, undifferentiated"     ,
+    "alt" : "Malignant fibrous histiocytoma",
+    "abbr": "US, UPS, MFH"
+  },
   {"code": "88320", "name": "Dermatofibroma", "abbr": "DF"},
-  {"code": "88323", "name": "Dermatofibrosarcoma protruberans", "abbr": "DFSP"},
+  {
+    "code": "88323"                           ,
+    "name": "Dermatofibrosarcoma protruberans",
+    "abbr": "DFSP"
+  },
   {"code": "88400", "name": "Myxoma"},
   {"code": "88500", "name": "Lipoma"},
   {"code": "88503", "name": "Liposarcoma"},
@@ -456,11 +569,19 @@
   {"code": "88903", "name": "Leiomyosarcoma"},
   {"code": "89000", "name": "Rhabdomyoma"},
   {"code": "89003", "name": "Rhabdomyosarcoma"},
-  {"code": "89103", "name": "Rhabdomyosarcoma, embryonal", "alt": "Sarcoma botryoides"},
+  {
+    "code": "89103"                      ,
+    "name": "Rhabdomyosarcoma, embryonal",
+    "alt" : "Sarcoma botryoides"
+  },
   {"code": "89320", "name": "Adenomyoma"},
   {"code": "89400", "name": "Adenoma, pleomorphic"},
   {"code": "89403", "name": "Carcinoma ex pleomorphic adenoma"},
-  {"code": "89503", "name": "Carcinosarcoma of the uterus", "alt": "Tumor, malignant mixed Müllerian"},
+  {
+    "code": "89503"                           ,
+    "name": "Carcinosarcoma of the uterus"    ,
+    "alt" : "Tumor, malignant mixed Müllerian"
+  },
   {"code": "89603", "name": "Nephroblastoma", "alt": "Tumor, Wilms"},
   {"code": "89803", "name": "Carcinosarcoma"},
   {"code": "90000", "name": "Tumor, Brenner"},
@@ -468,28 +589,38 @@
   {"code": "90130", "name": "Adenofibroma", "alt": "Cystadenofibroma"},
   {"code": "90201", "name": "Tumor, phyllodes"},
   {"code": "90403", "name": "Sarcoma, synovial"},
-  {"code": "90500", "name": "Benign mesothelial proliferation", "alt": "Hyperplasia, mesothelial"},
+  {
+    "code": "90500"                           ,
+    "name": "Benign mesothelial proliferation",
+    "alt" : "Hyperplasia, mesothelial"
+  },
   {"code": "90503", "name": "Mesothelioma"},
   {"code": "90540", "name": "Tumor, adenomatoid"},
-  /* Reproductive neoplasms */
   {"code": "90603", "name": "Dysgerminoma"},
   {"code": "90613", "name": "Seminoma"},
   {"code": "90703", "name": "Carcinoma, embryonal"},
-  {"code": "90713", "name": "Tumor, yolk sac", "alt": "Tumor, endodermal sinus"},
+  {
+    "code": "90713"                  ,
+    "name": "Tumor, yolk sac"        ,
+    "alt" : "Tumor, endodermal sinus"
+  },
   {"code": "90801", "name": "Teratoma"},
   {"code": "90803", "name": "Teratoma, malignant"},
   {"code": "90840", "name": "Cyst, dermoid"},
   {"code": "91000", "name": "Hydatidiform mole"},
   {"code": "91001", "name": "Hydatidiform mole, invasive"},
   {"code": "91003", "name": "Choriocarcinoma"},
-  /* Soft tissue neoplasms */
   {"code": "91200", "name": "Hemangioma"},
   {"code": "91203", "name": "Angiosarcoma", "alt": "Lymphangiosarcoma"},
   {"code": "91301", "name": "Hemangioendothelioma"},
   {"code": "91320", "name": "Hemangioma, intramuscular"},
   {"code": "91403", "name": "Sarcoma, Kaposi"},
   {"code": "91410", "name": "Angiokeratoma"},
-  {"code": "91500", "name": "Solitary fibrous tumor", "alt": "Hemangiopericytoma"},
+  {
+    "code": "91500"                 ,
+    "name": "Solitary fibrous tumor",
+    "alt" : "Hemangiopericytoma"
+  },
   {"code": "91600", "name": "Angiofibroma of soft tissue"},
   {"code": "91611", "name": "Hemangioblastoma"},
   {"code": "91700", "name": "Lymphangioma"},
@@ -502,7 +633,11 @@
   {"code": "92501", "name": "Giant cell tumor of bone"},
   {"code": "92603", "name": "Sarcoma, Ewing"},
   {"code": "92701", "name": "Tumor, odontogenic"},
-  {"code": "93010", "name": "Cyst, calcifying odontogenic", "alt": "Tumor, Gorlin"},
+  {
+    "code": "93010"                       ,
+    "name": "Cyst, calcifying odontogenic",
+    "alt" : "Tumor, Gorlin"
+  },
   {"code": "93501", "name": "Craniopharyngioma"},
   {"code": "93703", "name": "Chordoma"},
   {"code": "93803", "name": "Glioma"},
@@ -512,12 +647,20 @@
   {"code": "94503", "name": "Oligodendroglioma"},
   {"code": "94703", "name": "Medulloblastoma"},
   {"code": "95003", "name": "Neuroblastoma"},
-  {"code": "95223", "name": "Esthesioneuroblastoma", "alt": "Neuroblastoma, olfactory"},
+  {
+    "code": "95223"                   ,
+    "name": "Esthesioneuroblastoma"   ,
+    "alt" : "Neuroblastoma, olfactory"
+  },
   {"code": "95300", "name": "Meningioma"},
-  {"code": "95400", "name": "Malignant peripheral nerve sheath tumor", "abbr": "MPNST"},
+  {
+    "code": "95400"                                  ,
+    "name": "Malignant peripheral nerve sheath tumor",
+    "abbr": "MPNST"
+  },
   {"code": "95600", "name": "Schwannoma", "alt": "Neuroma, neurilemmoma"},
+  {"code": "95800", "name": "Tumor, granular cell"},
   {"code": "95813", "name": "Sarcoma, alveolar soft part", "abbr": "ASPS"},
-  /* Hematolymphoid malignancies */
   {"code": "95903", "name": "Lymphoma"},
   {"code": "95933", "name": "Lymphoma, B-cell"},
   {"code": "95953", "name": "Lymphoma, T-cell"},
@@ -527,18 +670,27 @@
   {"code": "97203", "name": "Histiocytosis"},
   {"code": "97213", "name": "Sarcoma, histiocytic"},
   {"code": "97223", "name": "Histiocytosis, Langerhans cell", "abbr": "LCH"},
-  {"code": "97303", "name": "Plasma cell myeloma", "alt": "Mutiple myeloma", "abbr": "MM"},
+  {
+    "code": "97303"              ,
+    "name": "Plasma cell myeloma",
+    "alt" : "Mutiple myeloma"    ,
+    "abbr": "MM"
+  },
   {"code": "97311", "name": "Solitary plasmacytoma"},
   {"code": "98003", "name": "Leukemia"},
   {"code": "98013", "name": "Leukemia, acute"},
   {"code": "98213", "name": "Leukemia, acute lymphoblastic", "abbr": "ALL"},
-  {"code": "98613", "name": "Leukemia, acute myeloid", "abbr": "AML"},
   {"code": "98233", "name": "Leukemia, chronic lymphocytic", "abbr": "CLL"},
+  {"code": "98613", "name": "Leukemia, acute myeloid", "abbr": "AML"},
   {"code": "98633", "name": "Leukemia, chronic myeloid", "abbr": "CMN"},
+  {"code": "99303", "name": "Sarcoma, myeloid"},
   {"code": "99403", "name": "Leukemia, hairy cell", "abbr": "HCL"},
   {"code": "99601", "name": "Myeloproliferative neoplasm", "abbr": "MPN"},
-  {"code": "99601", "name": "Myelodysplastic neoplasm", "alt": "Myelodyplastic syndrome", "abbr": "MDS"},
-  {"code": "99691", "name": "Lymphoproliferative disorder", "abbr": "LPD"},
-  {"code": "99303", "name": "Sarcoma, myeloid"},
-  {"code": "533X0", "name": "Xanthoma, verruciform"},
+  {
+    "code": "99601"                   ,
+    "name": "Myelodysplastic neoplasm",
+    "alt" : "Myelodyplastic syndrome" ,
+    "abbr": "MDS"
+  },
+  {"code": "99691", "name": "Lymphoproliferative disorder", "abbr": "LPD"}
 ]
