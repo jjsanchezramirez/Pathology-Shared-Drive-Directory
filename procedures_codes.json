@@ -23,6 +23,7 @@
   {"code": "1154", "name": "Curretage, NOS"},
   {"code": "1160", "name": "Removal, NOS"},
   {"code": "1170", "name": "Excision and prosthetic replacement"},
+  {"code": "1170", "name": "Resection"},
   {"code": "11X2", "name": "Excision, transurethral approach (TURP)"},
   {"code": "1278", "name": "Removal of therapeutic device"},
   {"code": "1312", "name": "Endoscopy and removal of foreign material"},
