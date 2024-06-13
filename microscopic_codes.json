@@ -125,7 +125,7 @@
     "abbr": "DIP"
   },
   {"code": "43180", "name": "Malakoplakia"},
-  {"code": "43750", "name": "Chondrodermatitis nodularis helicis", "abbr": cnh"},
+  {"code": "43750", "name": "Chondrodermatitis nodularis helicis", "abbr": "CNH"},
   {"code": "44000", "name": "Inflammation, granulomatous"},
   {"code": "44040", "name": "Inflammation, xanthogranulomatous"},
   {"code": "44050", "name": "Granuloma, eosinophilic"},
@@ -396,7 +396,7 @@
   {"code": "77910", "name": "Histiocytosis X"},
   {
     "code": "77940",
-    "name": "Sinus histiocytosis with massive lymphadenopathy", "alt": Rosai-Dorfman disease"
+    "name": "Sinus histiocytosis with massive lymphadenopathy", "alt": "Disease, Rosai-Dorfman"
   },
   {"code": "79310", "name": "Endometrium"},
   {"code": "79310", "name": "Endometrium, proliferative"},
@@ -535,7 +535,7 @@
     "name": "Fibrous papule", "alt": "Angiofibroma of the nose, adenoma sebaceum", "abbr": "fibpap, fp"
   },
   {"code": "87400", "name": "Nevus, junctional", "abbr": "JN"},
-  {"code": "87422", "name": "Lentigo maligna", "name": "Melanoma in situ", "abbr": "LM, MIS"},
+  {"code": "87422", "name": "Lentigo maligna", "alt": "Melanoma in situ", "abbr": "LM, MIS"},
   {"code": "87423", "name": "Melanoma, lentigo maligna", "abbr": "LMM"},
   {"code": "87433", "name": "Melanoma, superficial spreading"},
   {"code": "87500", "name": "Nevus, dermal", "abbr": "DN"},
