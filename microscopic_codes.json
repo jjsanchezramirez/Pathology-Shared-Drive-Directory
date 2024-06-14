@@ -301,7 +301,7 @@
   },
   {"code": "72000", "name": "Hyperplasia"},
   {"code": "72005", "name": "Hyperplasia, atypical"},
-  {"code": "72040", "name": "Polyp, hyperplastic"},
+  {"code": "72040", "name": "Polyp, hyperplastic", "abbr": "HP"},
   {"code": "72090", "name": "Hyperplasia, Pseudoepitheliomatous"},
   {"code": "72100", "name": "Hyperplasia, lobular"},
   {"code": "72170", "name": "Hyperplasia, ductal"},
